@@ -5,4 +5,4 @@ Lee, H., Jang, H., Chae, JB. et al. In vivo efficacy of NRL knockdown with cell-
 
 Data:
 - scRNA-seq raw and processed data: GEO **GSE266377**
-- Processed Seurat objects (RDS) via Zenodo: 
+- Processed Seurat objects (RDS) via Zenodo: https://doi.org/10.5281/zenodo.18409010
