@@ -1,0 +1,64 @@
+R version 4.1.1 (2021-08-10)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 22.04.1 LTS
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] splines   stats4    stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] stringr_1.6.0       readxl_1.4.2        ggh4x_0.2.8        
+ [4] dplyr_1.1.4         ggpubr_0.6.0.999    reshape2_1.4.5     
+ [7] RColorBrewer_1.1-3  monocle_2.22.0      DDRTree_0.1.5      
+[10] irlba_2.3.5.1       VGAM_1.1-7          ggplot2_4.0.1      
+[13] Biobase_2.54.0      BiocGenerics_0.40.0 Matrix_1.6-4       
+[16] SeuratObject_4.1.3  Seurat_4.1.1       
+
+loaded via a namespace (and not attached):
+  [1] Rtsne_0.17            ggsignif_0.6.4        deldir_2.0-4         
+  [4] ggridges_0.5.7        proxy_0.4-29          spatstat.data_3.1-9  
+  [7] leiden_0.4.3.1        listenv_0.10.0        farver_2.1.2         
+ [10] ggrepel_0.9.6         codetools_0.2-18      docopt_0.7.2         
+ [13] polyclip_1.10-7       Formula_1.2-5         jsonlite_2.0.0       
+ [16] broom_1.0.3           ica_1.0-3             cluster_2.1.6        
+ [19] png_0.1-8             pheatmap_1.0.12       uwot_0.2.4           
+ [22] shiny_1.12.1          sctransform_0.4.3     spatstat.sparse_3.1-0
+ [25] compiler_4.1.1        httr_1.4.7            backports_1.5.0      
+ [28] fastmap_1.2.0         lazyeval_0.2.2        limma_3.50.3         
+ [31] cli_3.6.5             later_1.4.5           htmltools_0.5.9      
+ [34] tools_4.1.1           igraph_2.0.3          otel_0.2.0           
+ [37] gtable_0.3.6          glue_1.8.0            RANN_2.6.2           
+ [40] Rcpp_1.1.1            carData_3.0-5         scattermore_1.2      
+ [43] slam_0.1-55           cellranger_1.1.0      vctrs_0.7.1          
+ [46] nlme_3.1-161          progressr_0.18.0      lmtest_0.9-40        
+ [49] spatstat.random_2.2-0 globals_0.18.0        mime_0.13            
+ [52] miniUI_0.1.2          lifecycle_1.0.5       rstatix_0.7.2        
+ [55] goftest_1.2-3         future_1.69.0         MASS_7.3-58.2        
+ [58] zoo_1.8-15            scales_1.4.0          spatstat.core_2.4-4  
+ [61] promises_1.5.0        spatstat.utils_3.2-1  parallel_4.1.1       
+ [64] reticulate_1.44.1     pbapply_1.7-4         gridExtra_2.3        
+ [67] rpart_4.1.19          fastICA_1.2-3         stringi_1.8.7        
+ [70] densityClust_0.3.2    rlang_1.1.7           pkgconfig_2.0.3      
+ [73] matrixStats_1.5.0     qlcMatrix_0.9.9       lattice_0.20-45      
+ [76] ROCR_1.0-12           purrr_1.2.1           tensor_1.5.1         
+ [79] labeling_0.4.3        patchwork_1.3.2       htmlwidgets_1.6.4    
+ [82] cowplot_1.2.0         tidyselect_1.2.1      parallelly_1.46.1    
+ [85] RcppAnnoy_0.0.23      plyr_1.8.9            magrittr_2.0.4       
+ [88] R6_2.6.1              generics_0.1.4        combinat_0.0-8       
+ [91] pillar_1.11.1         withr_3.0.2           mgcv_1.8-41          
+ [94] fitdistrplus_1.2-6    survival_3.5-0        abind_1.4-8          
+ [97] sp_2.2-0              tibble_3.3.1          future.apply_1.20.1  
+[100] car_3.1-3             KernSmooth_2.23-20    spatstat.geom_2.4-0  
+[103] plotly_4.12.0         viridis_0.6.2         grid_4.1.1           
+[106] data.table_1.18.0     FNN_1.1.4.1           S7_0.2.1             
+[109] sparsesvd_0.2-3       HSMMSingleCell_1.14.0 digest_0.6.39        
+[112] xtable_1.8-4          tidyr_1.3.2           httpuv_1.6.16        
+[115] viridisLite_0.4.2    
